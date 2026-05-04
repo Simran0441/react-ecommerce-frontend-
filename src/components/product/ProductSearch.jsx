@@ -55,10 +55,19 @@ const ProductSearch = () => {
             className="product-search-input"
             onChange={onSearchChange}
             onKeyUp={onKeyUp}
-            placeholder="Search for product..."
+            placeholder="Search products..."
             ref={searchInput}
             type="text"
+            style={{
+             padding: "10px",
+             borderRadius: "6px",
+             border: "1px solid #ccc",
+             width: "100%",
+             maxWidth: "400px",
+             marginBottom: "12px"
+            }}
           />
+          
           <div className="searchbar-icon" />
         </div>
       </div>
